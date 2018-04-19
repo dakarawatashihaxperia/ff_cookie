@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Cookie Switcher",
+    "version": "0.0.1",
+    "author": "tatsupra",
+    "applications": {
+        "gecko": {
+            "id": "cookieswitcher@fukachan.com"
+        }
+    },
+    "icons": {
+        "16": "icons/imaeg-16.png",
+        "24": "icons/image-24.png",
+        "32": "icons/image-32.png",
+        "48": "icons/image-48.png",
+        "64": "icons/image-64.png"
+    },
+    "permissions": [
+        "privacy"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": "icons/image_blocked-32.png"
+    }
+}
