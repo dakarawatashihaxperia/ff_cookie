@@ -11,7 +11,6 @@ function initialize() {
 
     conf.then((config) => {
         is_block = (config.value.behavior === 'reject_all');
-        console.log(is_block);
         reloadIcon();
     });
 }
@@ -49,6 +48,4 @@ function reloadIcon() {
     else {
         browser.browserAction.setIcon({path: 'icons/image-32.png'});
     }
-
-    console.log(is_block);
 }
