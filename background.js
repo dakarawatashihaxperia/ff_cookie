@@ -43,9 +43,9 @@ function toggleCookie() {
  */
 function reloadIcon() {
     if (is_block) {
-        browser.browserAction.setIcon({path: 'icons/image_blocked-32.png'});
+        browser.browserAction.setIcon({path: 'icons/icon_blocked.svg'});
     }
     else {
-        browser.browserAction.setIcon({path: 'icons/image-32.png'});
+        browser.browserAction.setIcon({path: 'icons/icon.svg'});
     }
 }
